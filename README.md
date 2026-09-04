@@ -1,6 +1,6 @@
-<img align="right" src="docs/images/logo.png" alt="Campaign Manager Logo" width="90">
+<img align="right" src="docs/images/logo.png" alt="Campaign Manager Logo" width="40">
 
-# Complete Campaign & Election Management Solution
+# Political Campaign & Election Management Solution
 
 **Campaign Manager** is a complete political campaign organisation, mobilisation and election-day management platform.
 
