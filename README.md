@@ -4,17 +4,27 @@
 
 **Campaign Manager** is a complete political campaign organisation, mobilisation and election-day management platform.
 
-[![Latest Release](https://img.shields.io/github/v/release/joshualion/Campaign-Manager?label=Latest%20Release&style=for-the-badge&color=008F5A)](https://github.com/joshualion/Campaign-Manager/releases/latest)
+<p>
+  <a href="https://github.com/joshualion/Campaign-Manager/releases/latest">
+    <img src="https://img.shields.io/github/v/release/joshualion/Campaign-Manager?label=Latest%20Release&style=for-the-badge&color=008F5A" alt="Latest Release">
+  </a>
+  <a href="https://github.com/joshualion/Campaign-Manager/releases">
+    <img src="https://img.shields.io/github/downloads/joshualion/Campaign-Manager/campaign-manager.zip?displayAssetName=false&label=Total%20Downloads&style=for-the-badge&color=0A7F55" alt="Total Downloads">
+  </a>
+  <img src="https://img.shields.io/badge/Public%20Since-4%20Sep%202026-006B45?style=for-the-badge" alt="Public Since">
+</p>
 
-[![Total Downloads](https://img.shields.io/github/downloads/joshualion/Campaign-Manager/campaign-manager.zip?displayAssetName=false&label=Total%20Downloads&style=for-the-badge&color=0A7F55)](https://github.com/joshualion/Campaign-Manager/releases)
-
-![Public Since](https://img.shields.io/badge/Public%20Since-4%20Sep%202026-006B45?style=for-the-badge)
-
-[![Latest Update](https://img.shields.io/github/release-date/joshualion/Campaign-Manager?display_date=published_at&label=Latest%20Update&style=for-the-badge&color=008F5A)](https://github.com/joshualion/Campaign-Manager/releases/latest)
-
-[![Download Free](https://img.shields.io/badge/Download-Free-008F5A?style=for-the-badge)](https://github.com/joshualion/Campaign-Manager/releases/latest/download/campaign-manager.zip)
-
-[![Website](https://img.shields.io/badge/Website-CampaignManager.ng-006B45?style=for-the-badge)](https://www.campaignmanager.ng)
+<p>
+  <a href="https://github.com/joshualion/Campaign-Manager/releases/latest">
+    <img src="https://img.shields.io/github/release-date/joshualion/Campaign-Manager?display_date=published_at&label=Latest%20Update&style=for-the-badge&color=008F5A" alt="Latest Update">
+  </a>
+  <a href="https://github.com/joshualion/Campaign-Manager/releases/latest/download/campaign-manager.zip">
+    <img src="https://img.shields.io/badge/Download-Free-008F5A?style=for-the-badge" alt="Download Free">
+  </a>
+  <a href="https://www.campaignmanager.ng">
+    <img src="https://img.shields.io/badge/Website-CampaignManager.ng-006B45?style=for-the-badge" alt="Website">
+  </a>
+</p>
 
 <br clear="right">
 
