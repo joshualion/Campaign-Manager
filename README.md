@@ -8,21 +8,31 @@
   <a href="https://github.com/joshualion/Campaign-Manager/releases/latest">
     <img src="https://img.shields.io/github/v/release/joshualion/Campaign-Manager?label=Latest%20Release&style=for-the-badge&color=008F5A" alt="Latest Release">
   </a>
+
   <a href="https://github.com/joshualion/Campaign-Manager/releases">
     <img src="https://img.shields.io/github/downloads/joshualion/Campaign-Manager/campaign-manager.zip?displayAssetName=false&label=Total%20Downloads&style=for-the-badge&color=0A7F55" alt="Total Downloads">
   </a>
+
   <img src="https://img.shields.io/badge/Public%20Since-4%20Sep%202026-006B45?style=for-the-badge" alt="Public Since">
+
+  <img src="https://img.shields.io/badge/Release%20Channel-Stable-008F5A?style=for-the-badge" alt="Stable Release">
 </p>
 
 <p>
   <a href="https://github.com/joshualion/Campaign-Manager/releases/latest">
     <img src="https://img.shields.io/github/release-date/joshualion/Campaign-Manager?display_date=published_at&label=Latest%20Update&style=for-the-badge&color=008F5A" alt="Latest Update">
   </a>
+
   <a href="https://github.com/joshualion/Campaign-Manager/releases/latest/download/campaign-manager.zip">
     <img src="https://img.shields.io/badge/Download-Free-008F5A?style=for-the-badge" alt="Download Free">
   </a>
+
   <a href="https://www.campaignmanager.ng">
     <img src="https://img.shields.io/badge/Website-CampaignManager.ng-006B45?style=for-the-badge" alt="Website">
+  </a>
+
+  <a href="https://www.campaignmanager.ng">
+    <img src="https://img.shields.io/badge/Managed%20Deployment-Available-0A7F55?style=for-the-badge" alt="Managed Deployment">
   </a>
 </p>
 
