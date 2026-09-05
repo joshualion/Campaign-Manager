@@ -1,11 +1,12 @@
-<img align="right" src="docs/images/logo.png" alt="Campaign Manager Logo" width="40">
+<img align="right" src="docs/images/logo.png" alt="Campaign Manager Logo" width="50">
 
 # Political Campaign & Election Management Solution
 
 **Campaign Manager** is a complete political campaign organisation, mobilisation and election-day management platform.
 
 [![Latest Release](https://img.shields.io/github/v/release/joshualion/Campaign-Manager?label=Latest%20Release&style=for-the-badge&color=008F5A)](https://github.com/joshualion/Campaign-Manager/releases/latest)
-[![Download](https://img.shields.io/badge/Download-Free-008F5A?style=for-the-badge)](https://github.com/joshualion/Campaign-Manager/releases/latest)
+[![Total Downloads](https://img.shields.io/github/downloads/joshualion/Campaign-Manager/campaign-manager.zip?label=Total%20Downloads&style=for-the-badge&color=0A7F55)](https://github.com/joshualion/Campaign-Manager/releases)
+[![Download Free](https://img.shields.io/badge/Download-Free-008F5A?style=for-the-badge)](https://github.com/joshualion/Campaign-Manager/releases/latest/download/campaign-manager.zip)
 [![Website](https://img.shields.io/badge/Website-CampaignManager.ng-006B45?style=for-the-badge)](https://www.campaignmanager.ng)
 
 <br clear="right">
