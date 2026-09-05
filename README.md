@@ -32,7 +32,7 @@
   </a>
 
   <a href="https://www.campaignmanager.ng/order/campaign-manager?deployment=managed">
-    <img src="https://img.shields.io/badge/Managed%20Deployment-Deploy-0A7F55?style=for-the-badge" alt="Managed Deployment">
+    <img src="https://img.shields.io/badge/Managed%20Deployment-Deploy-0A7F55?style=for-the-badge" alt="Managed">
   </a>
 </p>
 
