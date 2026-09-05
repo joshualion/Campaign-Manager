@@ -6,33 +6,33 @@
 
 <p>
   <a href="https://github.com/joshualion/Campaign-Manager/releases/latest">
-    <img src="https://img.shields.io/github/v/release/joshualion/Campaign-Manager?label=Release&style=for-the-badge&color=008F5A" alt="Latest Release">
+    <img src="https://img.shields.io/github/v/release/joshualion/Campaign-Manager?label=Latest%20Release&style=for-the-badge&color=008F5A" alt="Latest Release">
   </a>
 
   <a href="https://github.com/joshualion/Campaign-Manager/releases">
-    <img src="https://img.shields.io/github/downloads/joshualion/Campaign-Manager/campaign-manager.zip?displayAssetName=false&label=Downloads&style=for-the-badge&color=0A7F55" alt="Total Downloads">
+    <img src="https://img.shields.io/github/downloads/joshualion/Campaign-Manager/campaign-manager.zip?displayAssetName=false&label=Total%20Downloads&style=for-the-badge&color=0A7F55" alt="Total Downloads">
   </a>
 
-  <img src="https://img.shields.io/badge/Since-4%20Sep%202026-006B45?style=for-the-badge" alt="Public Since">
+  <img src="https://img.shields.io/badge/Public%20Since-4%20Sep%202026-006B45?style=for-the-badge" alt="Public Since">
 
-  <img src="https://img.shields.io/badge/Channel-Stable-008F5A?style=for-the-badge" alt="Stable Release">
+  <img src="https://img.shields.io/badge/Release%20Channel-Stable-008F5A?style=for-the-badge" alt="Release Channel">
 </p>
 
 <p>
   <a href="https://github.com/joshualion/Campaign-Manager/releases/latest">
-    <img src="https://img.shields.io/github/release-date/joshualion/Campaign-Manager?display_date=published_at&label=Updated&style=for-the-badge&color=008F5A" alt="Latest Update">
+    <img src="https://img.shields.io/github/release-date/joshualion/Campaign-Manager?display_date=published_at&label=Latest%20Update&style=for-the-badge&color=008F5A" alt="Latest Update">
   </a>
 
   <a href="https://github.com/joshualion/Campaign-Manager/releases/latest/download/campaign-manager.zip">
-    <img src="https://img.shields.io/badge/Download-Free-008F5A?style=for-the-badge" alt="Download Free">
+    <img src="https://img.shields.io/badge/Download-Free%20Download-008F5A?style=for-the-badge" alt="Free Download">
   </a>
 
   <a href="https://www.campaignmanager.ng">
-    <img src="https://img.shields.io/badge/Website-Visit-006B45?style=for-the-badge" alt="Website">
+    <img src="https://img.shields.io/badge/Official%20Website-Visit-006B45?style=for-the-badge" alt="Official Website">
   </a>
 
   <a href="https://www.campaignmanager.ng/order/campaign-manager?deployment=managed">
-    <img src="https://img.shields.io/badge/Managed-Deploy-0A7F55?style=for-the-badge" alt="Managed Deployment">
+    <img src="https://img.shields.io/badge/Managed%20Deployment-Deploy-0A7F55?style=for-the-badge" alt="Managed Deployment">
   </a>
 </p>
 
@@ -268,7 +268,7 @@ The final open-source/public redistribution licence and associated terms will be
 
 **Campaign Manager**
 
-Political Campaign Technology by **Govware Solutions Limited**
+Political Campaign Technology 
 
 [www.campaignmanager.ng](https://www.campaignmanager.ng)
 
