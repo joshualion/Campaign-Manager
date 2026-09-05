@@ -5,8 +5,15 @@
 **Campaign Manager** is a complete political campaign organisation, mobilisation and election-day management platform.
 
 [![Latest Release](https://img.shields.io/github/v/release/joshualion/Campaign-Manager?label=Latest%20Release&style=for-the-badge&color=008F5A)](https://github.com/joshualion/Campaign-Manager/releases/latest)
-[![Total Downloads](https://img.shields.io/github/downloads/joshualion/Campaign-Manager/campaign-manager.zip?label=Total%20Downloads&style=for-the-badge&color=0A7F55)](https://github.com/joshualion/Campaign-Manager/releases)
+
+[![Total Downloads](https://img.shields.io/github/downloads/joshualion/Campaign-Manager/campaign-manager.zip?displayAssetName=false&label=Total%20Downloads&style=for-the-badge&color=0A7F55)](https://github.com/joshualion/Campaign-Manager/releases)
+
+![Public Since](https://img.shields.io/badge/Public%20Since-4%20Sep%202026-006B45?style=for-the-badge)
+
+[![Latest Update](https://img.shields.io/github/release-date/joshualion/Campaign-Manager?display_date=published_at&label=Latest%20Update&style=for-the-badge&color=008F5A)](https://github.com/joshualion/Campaign-Manager/releases/latest)
+
 [![Download Free](https://img.shields.io/badge/Download-Free-008F5A?style=for-the-badge)](https://github.com/joshualion/Campaign-Manager/releases/latest/download/campaign-manager.zip)
+
 [![Website](https://img.shields.io/badge/Website-CampaignManager.ng-006B45?style=for-the-badge)](https://www.campaignmanager.ng)
 
 <br clear="right">
