@@ -36,6 +36,25 @@
 </a>
 </p>
 
+<p><strong>❤️ Support this project:</strong></p>
+<p>
+  <a href="https://www.campaignmanager.ng/support-development?amount=20">
+    <img src="https://img.shields.io/badge/Support-%2420-008F5A?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $20">
+  </a>
+  <a href="https://www.campaignmanager.ng/support-development?amount=50">
+    <img src="https://img.shields.io/badge/Support-%2450-0A7F55?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $50">
+  </a>
+  <a href="https://www.campaignmanager.ng/support-development?amount=100">
+    <img src="https://img.shields.io/badge/Support-%24100-006B45?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $100">
+  </a>
+  <a href="https://www.campaignmanager.ng/support-development?amount=500">
+    <img src="https://img.shields.io/badge/Support-%24500-008F5A?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $500">
+  </a>
+  <a href="https://www.campaignmanager.ng/support-development?amount=custom">
+    <img src="https://img.shields.io/badge/Support-Custom-0A7F55?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Custom Support">
+  </a>
+</p>
+
 <br clear="right">
 
 ---
@@ -270,11 +289,23 @@ The final open-source/public redistribution licence and associated terms will be
 
 Campaign Manager is free to download and use. If the project is useful to you or your organisation, you can help support continued development, maintenance, testing, security improvements and documentation.
 
-<a href="https://www.campaignmanager.ng/support-development">
-  <img src="https://img.shields.io/badge/Support%20Development-Sponsor-008F5A?style=for-the-badge" alt="Support Campaign Manager Development">
-</a>
-
-**$20 · $50 · $100 · $500 · Custom**
+<p>
+  <a href="https://www.campaignmanager.ng/support-development?amount=20">
+    <img src="https://img.shields.io/badge/Support-%2420-008F5A?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $20">
+  </a>
+  <a href="https://www.campaignmanager.ng/support-development?amount=50">
+    <img src="https://img.shields.io/badge/Support-%2450-0A7F55?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $50">
+  </a>
+  <a href="https://www.campaignmanager.ng/support-development?amount=100">
+    <img src="https://img.shields.io/badge/Support-%24100-006B45?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $100">
+  </a>
+  <a href="https://www.campaignmanager.ng/support-development?amount=500">
+    <img src="https://img.shields.io/badge/Support-%24500-008F5A?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $500">
+  </a>
+  <a href="https://www.campaignmanager.ng/support-development?amount=custom">
+    <img src="https://img.shields.io/badge/Support-Custom-0A7F55?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Custom Support">
+  </a>
+</p>
 
 <sub>Support is voluntary and does not purchase a software licence, campaign service, political influence or preferential treatment.</sub>
 
