@@ -36,7 +36,6 @@
 </a>
 </p>
 
-<p><strong>❤️ Support this project:</strong></p>
 <p>
   <a href="https://www.campaignmanager.ng/support-development?amount=20">
     <img src="https://img.shields.io/badge/Support-%2420-008F5A?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support $20">
