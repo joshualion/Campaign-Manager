@@ -266,6 +266,24 @@ The final open-source/public redistribution licence and associated terms will be
 
 <div align="center">
 
+## ❤️ Support Campaign Manager Development
+
+Campaign Manager is free to download and use. If the project is useful to you or your organisation, you can help support continued development, maintenance, testing, security improvements and documentation.
+
+<a href="https://www.campaignmanager.ng/support-development">
+  <img src="https://img.shields.io/badge/Support%20Development-Sponsor-008F5A?style=for-the-badge" alt="Support Campaign Manager Development">
+</a>
+
+**$20 · $50 · $100 · $500 · Custom**
+
+<sub>Support is voluntary and does not purchase a software licence, campaign service, political influence or preferential treatment.</sub>
+
+</div>
+
+---
+
+<div align="center">
+
 **Campaign Manager**
 
 Political Campaign Technology 
