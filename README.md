@@ -66,9 +66,15 @@ See the **[verified Product Overview](docs/product-overview.md)** for a fuller s
 
 ## See Campaign Manager in Action
 
-Verified demo screenshots are being refreshed for the public repository. The previously embedded screenshot files were removed because they were not rendering reliably on GitHub. Rather than leave broken image placeholders, this section will be repopulated only with correctly rendered, privacy-safe screenshots.
+### National Campaign Dashboard
+
+![Campaign Manager National Dashboard](docs/images/screenshots/campaign-manager-dashboard-readme.jpg)
+
+This verified demo dashboard brings campaign geography coverage, membership readiness, Polling Unit Agents, election statistics and member-distribution analytics into one operational view.
 
 The current national dataset displayed by Campaign Manager contains **6 Regions, 37 States, 109 Senatorial Districts, 360 Federal Constituencies, 774 LGAs, 8,809 Wards and 176,846 Polling Units**. These are Campaign Manager dataset totals rather than an independent electoral-data certification.
+
+Additional privacy-safe screenshots will be added as the demo election and field-operation data is populated sufficiently to show meaningful workflows rather than empty states.
 
 ## Supported campaign scopes
 
