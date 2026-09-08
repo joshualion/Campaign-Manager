@@ -1,6 +1,6 @@
 # Campaign Manager Product Overview
 
-This page summarises capabilities verified in the live Campaign Manager demo portal during the 8 September 2026 product audit. It is intentionally limited to functionality visible in the running product.
+This page summarises capabilities verified in the live Campaign Manager demo portal during the 8 September 2026 product audit, together with established product behaviour used in current deployments.
 
 ## One campaign operating platform
 
@@ -37,6 +37,10 @@ This gives campaign leadership one place to see organisation coverage and mobili
 Campaign Manager supports hierarchy-aware dashboards and member coverage views that drill from national operations into Regions, States, LGAs, Wards and Polling Units where relevant to the configured campaign scope.
 
 Members can be viewed by Region, State, LGA, Ward and Polling Unit. Aggregate coverage screens show totals without requiring public exposure of individual member records.
+
+## Campaign branding
+
+Campaign Manager can be adapted to the identity of the campaign organisation, including campaign colours, logos and visible campaign branding. This allows the deployed system to present the campaign's own identity rather than looking like a generic shared portal.
 
 ## Polling Unit Agent operations
 
@@ -90,8 +94,12 @@ Verified communications surfaces include:
 
 Some communication screens are intentionally not showcased publicly until privacy-safe demo content is available.
 
-## Community / Self-Hosted model
+## Community / Self-Hosted and managed service model
 
 Community / Self-Hosted Campaign Manager is free to download and use. No software licence key is required.
 
-Manual geography setup remains free. QuickStart Geography Provisioning, Professional Installation, Priority Support, Managed Deployment, Campaign SMS and custom services are optional paid services.
+The application distributed through the official GitHub release is the Campaign Manager product. Managed Deployment is not a separate hidden software edition; it is a service option for campaign teams that want Govware Solutions to handle infrastructure, installation, maintenance, monitoring and technical support around the same product.
+
+Teams with their own technical capacity can self-host and manage Campaign Manager themselves. Teams that need only selected assistance can purchase optional services such as QuickStart Geography Provisioning, Professional Installation, Priority Support, Campaign SMS or customisation/integration.
+
+Manual geography setup remains free.
