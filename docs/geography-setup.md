@@ -1,23 +1,34 @@
 # Geography Setup
 
-Campaign Manager supports two distinct geography-setup paths. The free Community / Self-Hosted application can be configured manually. QuickStart Geography Provisioning is an optional paid convenience service.
+Campaign Manager supports two geography-setup paths:
+
+1. **Manual Geography Configuration — Free**
+2. **QuickStart Geography Provisioning — Optional paid convenience service**
+
+In simple terms, campaign geography is the electoral structure Campaign Manager needs in order to organise people and operations correctly: **Regions, States, Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units**, depending on the campaign scope.
 
 ## Manual Geography Configuration — Free
 
-Manual geography configuration is part of normal Community use.
+Manual geography configuration is part of normal Community / Self-Hosted use and requires no software licence key.
 
-You can create and manage the geography required by your campaign scope yourself. Depending on the selected campaign scope, that may involve the relevant state, senatorial district, federal constituency, LGA, wards and polling units.
+The installer creates the core campaign boundary selected during setup, then your team can build out the remaining geography yourselves.
+
+Examples:
+
+- **Presidential / National campaign:** the national campaign context and Regions are prepared, while your team adds the States and the lower electoral structure under them.
+- **Governorship / State campaign:** the selected State is prepared, while your team adds the remaining geography required inside that State, such as Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units.
+- **Senatorial, Federal Constituency and LGA / Chairmanship campaigns:** the selected campaign boundary is prepared and your team completes the relevant lower-level geography needed for campaign operations.
+
+The exact lower levels depend on the selected campaign scope.
 
 Manual setup is appropriate when:
 
 - your team already has structured geography data;
 - your campaign scope is small enough to configure directly;
 - you prefer to control the data-entry/import process yourself;
-- you do not want to purchase provisioning assistance.
+- you do not want to purchase automatic geography setup.
 
-No software licence key is required for manual Community setup.
-
-### Imports
+### Imports and mapping
 
 Where the application exposes import tools, review the template and relationship requirements carefully before importing production data. Imported records should be validated for correct parent relationships before campaign users depend on dashboard/drill-down counts.
 
@@ -25,18 +36,27 @@ If an import path does not automatically build every electoral relationship need
 
 ## QuickStart Geography Provisioning — Optional
 
-QuickStart is a paid convenience service that supplies supported geography for the campaign scope/geography purchased through the Campaign Manager Portal.
+**QuickStart is the automatic setup option.** Instead of sitting down to create the required States, Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units one by one, Campaign Manager provisions the supported electoral geography for the campaign scope you purchased.
+
+For example:
+
+- a Presidential QuickStart can prepare the supported national geography structure needed by the campaign;
+- a Governorship QuickStart can prepare the supported geography for the selected State;
+- Senatorial, Federal Constituency and LGA / Chairmanship QuickStart orders provision the supported geography relevant to those purchased boundaries.
+
+This is why QuickStart is useful for large campaign scopes: it removes a substantial amount of repetitive geography data entry during installation.
 
 Typical reasons to use it:
 
-- avoid lengthy manual geography entry;
-- start with a prepared electoral-geography structure;
-- reduce setup time for larger scopes;
-- have the system provision the supported dataset for the purchased boundary.
+- avoid lengthy manual creation of electoral boundaries;
+- start with a prepared geography structure;
+- reduce installation/setup time;
+- reduce avoidable hierarchy/mapping mistakes;
+- get the supported dataset for the purchased campaign boundary automatically.
 
 ### What the key means
 
-A **QuickStart Geography Provisioning Key** authorises geography provisioning only.
+A **QuickStart Geography Provisioning Key** authorises this automatic geography setup only.
 
 It is **not**:
 
@@ -47,11 +67,11 @@ It is **not**:
 
 Community Campaign Manager continues to run without a software licence key.
 
-### Scope protection
+### Scope and one-time-use protection
 
-QuickStart is tied to the campaign scope/geography purchased. The provisioning service validates that the requested installation context matches the entitlement.
+QuickStart is tied to the exact campaign scope/geography purchased. The provisioning service validates that the requested installation context matches that entitlement.
 
-A successfully consumed QuickStart entitlement is not intended to create additional independent provisioning sessions. If a provisioning session is interrupted, resume the existing session through the normal installer/session flow rather than starting a separate installation with the same key.
+A successfully completed QuickStart entitlement is consumed for another independent installation. If a provisioning session is interrupted before successful completion, resume that existing session through the normal installer/session flow rather than trying to create another independent provisioning session.
 
 See [QuickStart Geography Provisioning](quickstart.md).
 
@@ -65,8 +85,10 @@ Whether you use Manual or QuickStart, verify before onboarding real campaign ope
 - polling units resolve through the expected ward/LGA structure;
 - dashboard counts and drill-down views reflect the campaign boundary.
 
-## Need convenience rather than software access?
+## The commercial distinction
 
-That distinction is important: QuickStart sells **setup convenience and prepared geography provisioning**, not access to the Community software itself.
+QuickStart sells **speed and automatic geography setup**, not access to the Campaign Manager software.
+
+You can run Campaign Manager yourself for free and configure geography manually. If you prefer the system to prepare the supported electoral structure automatically, QuickStart is available as a paid convenience service.
 
 [Visit Campaign Manager](https://www.campaignmanager.ng)
