@@ -2,13 +2,33 @@
 
 QuickStart Geography Provisioning is an **optional paid convenience service** for Campaign Manager Community / Self-Hosted deployments.
 
-It is designed for teams that want supported electoral geography provisioned automatically instead of configuring the entire required structure manually.
+In plain language, it automatically installs the electoral geography needed for the campaign scope you purchased instead of requiring your team to create that structure manually.
 
-## What QuickStart is
+Depending on the campaign scope, that geography can include the required:
 
-QuickStart can provision geography for the campaign scope/geography purchased through the Campaign Manager Portal.
+- Regions
+- States
+- Senatorial Districts
+- Federal Constituencies
+- LGAs
+- Wards
+- Polling Units
 
-Supported high-level campaign scopes include:
+The exact set depends on the campaign boundary being installed.
+
+## Why QuickStart exists
+
+Without QuickStart, Campaign Manager still works normally. The installer prepares the core campaign boundary, then your team builds out the remaining geography manually.
+
+For example:
+
+- a Presidential / National campaign starts with the national context and Regions, then the remaining States and lower geography can be added manually;
+- a Governorship campaign starts with the selected State, then the relevant Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units can be added manually;
+- smaller campaign scopes start with their selected boundary and require the relevant lower geography to be completed.
+
+QuickStart removes most of that repetitive setup work by provisioning the supported geography automatically.
+
+## Supported high-level campaign scopes
 
 - Presidential / National
 - Governorship / State
@@ -29,11 +49,11 @@ Campaign Manager Community:
 - does not require QuickStart;
 - can be configured manually for free.
 
-QuickStart pays for geography provisioning convenience, not permission to run the application.
+QuickStart pays for **automatic geography setup and convenience**, not permission to run the application.
 
 ## Getting a QuickStart key
 
-During installation, if you choose QuickStart, Campaign Manager provides a route back to the Campaign Manager Portal where you can order provisioning for the selected campaign scope/geography.
+During installation, if you choose QuickStart, Campaign Manager provides a route to the Campaign Manager Portal where you can order provisioning for the selected campaign scope/geography.
 
 Current service information is available at:
 
@@ -43,7 +63,7 @@ Current service information is available at:
 
 The provisioning service validates the requested campaign context against the geography/scope purchased.
 
-A key purchased for one scope/boundary should not be expected to provision another. For example, a state-scoped provisioning entitlement is not a national provisioning entitlement.
+A key purchased for one scope/boundary cannot be used to provision another. For example, a State-scoped QuickStart cannot be used to provision a Presidential / National installation.
 
 ## One successful provisioning
 
