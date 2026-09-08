@@ -70,19 +70,19 @@ The screenshots below are verified Campaign Manager screens with meaningful demo
 
 ### National Campaign Dashboard
 
-![Campaign Manager National Dashboard](docs/images/screenshots/dashboard-overview.webp)
+![Campaign Manager National Dashboard](docs/images/screenshots/dashboard-overview.jpg)
 
 Campaign leadership can see geographic coverage, regular members, coordinators/admins, Polling Unit Agents and voter-readiness indicators from one central dashboard.
 
 ### Member Coverage by Region
 
-![Campaign Manager Members by Region](docs/images/screenshots/member-coverage-regions.webp)
+![Campaign Manager Members by Region](docs/images/screenshots/member-coverage-regions.jpg)
 
 Member coverage can be reviewed across Nigeria's six geopolitical Regions, with direct drill-down into each Region dashboard.
 
 ### State Campaign Dashboard
 
-![Campaign Manager State Dashboard](docs/images/screenshots/state-dashboard.webp)
+![Campaign Manager State Dashboard](docs/images/screenshots/state-dashboard.jpg)
 
 State-level dashboards show the campaign's coverage across Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units alongside membership and voter-readiness metrics.
 
