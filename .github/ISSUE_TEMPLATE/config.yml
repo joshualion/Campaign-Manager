@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://www.campaignmanager.ng
+    about: Do not publish vulnerabilities or secrets in a public issue. See SECURITY.md and use the official private contact route.
+  - name: Professional services and paid support
+    url: https://www.campaignmanager.ng
+    about: QuickStart, Professional Installation, Priority Support, Managed Deployment, SMS and custom services.
