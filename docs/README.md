@@ -6,11 +6,19 @@ Campaign Manager is free to download and use on infrastructure you control. Comm
 
 ## Start here
 
+- [Product overview](product-overview.md) — verified live-demo capabilities and product strengths
 - [Installation guide](installation.md) — complete release-to-install workflow
 - [cPanel installation](cpanel-installation.md) — practical shared-hosting deployment
 - [VPS / Linux installation](vps-installation.md) — Apache/Nginx-oriented server deployment
 - [Upgrading](upgrading.md) — safer update planning and rollback preparation
 - [Troubleshooting](troubleshooting.md) — common deployment/runtime diagnostics
+
+## Campaign operations
+
+- [Political campaign scopes](campaign-scopes.md)
+- [Polling Unit Agent workflow](polling-unit-agent-workflow.md)
+- [Election Situation Room](election-situation-room.md)
+- [Roles and permissions](roles-and-permissions.md)
 
 ## Campaign configuration
 
@@ -23,13 +31,15 @@ Campaign Manager is free to download and use on infrastructure you control. Comm
 
 ## Screenshot assets
 
-Phase 2 will add verified live-demo screenshots under:
+The first live-demo audit has been completed and verified screenshot candidates have been captured. A final screenshot refresh is still planned after privacy-safe election-demo data is populated, so the README keeps stable insertion slots rather than publishing empty election/agent states as final showcase images.
+
+Screenshot assets belong under:
 
 ```text
 docs/images/screenshots/
 ```
 
-Reserved filenames:
+Reserved README filenames:
 
 ```text
 dashboard-overview.webp
@@ -42,7 +52,7 @@ election-monitoring-results.webp
 
 Recommended master size: **1600×900 (16:9)**, with sensitive/demo-identifying information reviewed before publication and interface text kept readable at GitHub README width.
 
-See [the screenshot asset handoff file](images/screenshots/README.md) for the complete Phase 2 insertion plan.
+See [the screenshot asset handoff file](images/screenshots/README.md) for the complete insertion plan.
 
 ## Important deployment note
 
