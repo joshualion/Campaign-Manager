@@ -19,6 +19,7 @@ Campaign Manager is free to download and use on infrastructure you control. Comm
 - [QuickStart Geography Provisioning](quickstart.md)
 - [Campaign SMS](sms.md)
 - [Frequently asked questions](faq.md)
+- [Licence status and decision notes](licensing.md)
 
 ## Screenshot assets
 
@@ -40,6 +41,8 @@ election-monitoring-results.webp
 ```
 
 Recommended master size: **1600×900 (16:9)**, with sensitive/demo-identifying information reviewed before publication and interface text kept readable at GitHub README width.
+
+See [the screenshot asset handoff file](images/screenshots/README.md) for the complete Phase 2 insertion plan.
 
 ## Important deployment note
 
