@@ -44,48 +44,51 @@ Campaign operations become difficult to control when organisational structure, s
 
 ## Feature overview
 
-Campaign Manager includes tools for:
+A live Super Admin product audit verified Campaign Manager capabilities including:
 
-- campaign dashboards and operational visibility
-- political structure and campaign-team coordination
-- supporter and member management
-- volunteer and field-team organisation
-- campaign geography management
-- polling-unit and agent management
-- notices, announcements and internal communication
-- election monitoring and field reporting workflows
-- election reporting/results workflows
-- role-based access and campaign-level permissions
-- campaign scope configuration
+- **National campaign dashboards** combining political/geographic coverage, member readiness and election-operation metrics
+- **Political structure drill-downs** from national operations into Regions and lower campaign geography
+- **Member coverage views** by Region, State, LGA, Ward and Polling Unit
+- **Voter-readiness indicators** including Eligible Voters and members Without Voter Card
+- **Polling Unit Agent workflows** for Self Request, Leader Nomination, Admin Appointment and Super Admin Assignment
+- **Agent status and identity stages** covering Pending, Approved, Rejected, Suspended and Revoked workflows
+- **Campaign deployment override** for authorised agent deployment outside a person's registered Polling Unit
+- **Election Situation Room** monitoring for result submissions, verified/disputed results, active/silent Polling Units and incidents/evidence
+- **Election analytics** including Submission Coverage, Incident Evidence, Coverage by State and an Operational Activity Timeline
+- **Internal Communication, Email Notifications and Announcements / Notice Board** workflows
+- **Campaign-specific roles and permissions** spanning national through polling-unit responsibilities
+- campaign scope configuration and geography management
 - free manual geography configuration
 - optional QuickStart Geography Provisioning
 - optional Campaign SMS integration
 
-Descriptions here are intentionally conservative. A verified live-demo feature inventory and updated product screenshots will be incorporated in Phase 2.
+See the **[verified Product Overview](docs/product-overview.md)** for a fuller summary, plus dedicated guides for the **[Polling Unit Agent Workflow](docs/polling-unit-agent-workflow.md)**, **[Election Situation Room](docs/election-situation-room.md)** and **[Roles & Permissions](docs/roles-and-permissions.md)**.
 
 ## See Campaign Manager in Action
 
-Verified screenshots from the live Campaign Manager demo are being prepared. Generic stock images and fabricated product screens are intentionally not used.
+The first live-demo audit is complete and a privacy-reviewed screenshot shortlist has been captured. The final public screenshot set is being refreshed after privacy-safe election-demo data is populated, so empty election/agent states are not being presented as the finished product showcase.
 
-Phase 2 screenshot slots are reserved for:
+The README slots are reserved for this six-screen story:
 
-1. **Dashboard** — campaign overview and operational visibility
-2. **Political Structure** — campaign hierarchy and structure management
-3. **Supporter / Member Management** — people and organisation records
-4. **Electoral Geography** — state/LGA/ward/polling-unit structure
-5. **Field / Agent Operations** — field-team and polling-unit operations
-6. **Election Monitoring / Results** — election-day reporting and results workflows
+1. **National Campaign Dashboard** — political structure coverage, membership readiness and campaign-wide operations
+2. **Election Situation Room** — result submissions, polling-unit activity, disputes and incident evidence
+3. **Electoral Geography** — Region-to-Polling-Unit operating depth across the campaign geography
+4. **Regional Campaign Structure** — geography, coordinators and member coverage at Region level
+5. **Member Coverage by Region** — mobilisation coverage across Nigeria's six geopolitical Regions
+6. **Polling Unit Agent Operations** — requests, nominations, identity stages and deployment workflow
+
+The captured demo confirms the application's displayed national geography totals of **6 Regions, 37 States, 109 Senatorial Districts, 360 Federal Constituencies, 774 LGAs, 8,809 Wards and 176,846 Polling Units**. These are Campaign Manager dataset totals rather than an independent electoral-data certification.
 
 <!--
-PHASE 2 SCREENSHOT INSERTION PLAN
+FINAL SCREENSHOT INSERTION PLAN
 1. docs/images/screenshots/dashboard-overview.webp
-2. docs/images/screenshots/political-structure.webp
-3. docs/images/screenshots/supporter-member-management.webp
-4. docs/images/screenshots/electoral-geography.webp
-5. docs/images/screenshots/field-agent-operations.webp
-6. docs/images/screenshots/election-monitoring-results.webp
+2. docs/images/screenshots/election-monitoring-results.webp
+3. docs/images/screenshots/electoral-geography.webp
+4. docs/images/screenshots/political-structure.webp
+5. docs/images/screenshots/supporter-member-management.webp
+6. docs/images/screenshots/field-agent-operations.webp
 Recommended master size: 1600x900 (16:9), WebP preferred; keep text readable at GitHub README width.
-Optional later assets: communications.webp, reports-analytics.webp, roles-access.webp, campaign-configuration.webp.
+Optional later assets: election-analytics.webp, roles-access.webp, campaign-analytics.webp, communications.webp.
 -->
 
 ## Supported campaign scopes
@@ -98,7 +101,7 @@ Campaign Manager can be configured for:
 - **Federal Constituency**
 - **Local Government / Chairmanship**
 
-The installer adjusts the relevant geography selection to the campaign scope. See **[Campaign Scopes](docs/campaign-scopes.md)** for the high-level model.
+The live product uses the package terminology **Presidential Campaign, Governorship Campaign, Senatorial District Campaign, Federal Constituency Campaign and Chairmanship Campaign**. The installer adjusts the relevant geography selection to the campaign scope. See **[Campaign Scopes](docs/campaign-scopes.md)** for the high-level model.
 
 ## Free self-hosted model
 
@@ -128,6 +131,7 @@ For proper deployment guidance, use the full **[Installation Guide](docs/install
 ## Documentation
 
 - [Documentation index](docs/README.md)
+- [Product overview](docs/product-overview.md)
 - [Installation guide](docs/installation.md)
 - [cPanel / shared-hosting installation](docs/cpanel-installation.md)
 - [VPS / Linux installation](docs/vps-installation.md)
@@ -135,6 +139,9 @@ For proper deployment guidance, use the full **[Installation Guide](docs/install
 - [Troubleshooting](docs/troubleshooting.md)
 - [Campaign scopes](docs/campaign-scopes.md)
 - [Geography setup](docs/geography-setup.md)
+- [Polling Unit Agent workflow](docs/polling-unit-agent-workflow.md)
+- [Election Situation Room](docs/election-situation-room.md)
+- [Roles & permissions](docs/roles-and-permissions.md)
 - [QuickStart Geography Provisioning](docs/quickstart.md)
 - [Campaign SMS](docs/sms.md)
 - [FAQ](docs/faq.md)
