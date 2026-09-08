@@ -8,20 +8,35 @@ Do not add stock imagery, fabricated interface images or empty screens simply to
 
 | Screenshot | Filename | Status |
 | --- | --- | --- |
-| National Campaign Dashboard | `dashboard-overview.webp` | Published; meaningful aggregate campaign data |
-| Member Coverage by Region | `member-coverage-regions.webp` | Published; aggregate member counts only |
-| State Campaign Dashboard | `state-dashboard.webp` | Published; meaningful geography/member coverage |
+| National Campaign Dashboard | `campaign-manager-dashboard-readme.jpg` | Published; meaningful aggregate campaign and election statistics |
+
+The earlier experimental dashboard/member/state screenshot files were removed because their binary uploads were corrupted and did not render reliably on GitHub.
 
 ## Reserved for later publication
 
-The following should be added only after privacy-safe demo data makes the screens genuinely useful:
+Add the following only after privacy-safe demo data makes the screens genuinely useful and the image binaries have been uploaded through a reliable Git workflow:
 
 - Election Situation Room / Results
 - Polling Unit Agent Operations
 - Electoral Geography detail
+- Member coverage by Region
+- State campaign dashboard
 - Communications
 - Roles & Access
 - Campaign analytics
+
+Suggested future filenames:
+
+```text
+election-monitoring-results.jpg
+field-agent-operations.jpg
+electoral-geography.jpg
+member-coverage-regions.jpg
+state-dashboard.jpg
+communications.jpg
+roles-access.jpg
+campaign-analytics.jpg
+```
 
 ## Privacy rules
 
@@ -41,5 +56,6 @@ Do not publish screenshots containing:
 - Populate meaningful privacy-safe demo data before capture where a screen would otherwise be empty.
 - Remove or replace real personal information, credentials, tokens and private political data.
 - Keep key UI text readable at GitHub README width.
-- Prefer WebP where interface text remains sharp.
+- Prefer a compact JPEG or WebP where interface text remains sharp.
+- Upload binary screenshots through normal Git when possible; do not rely on a text-oriented connector that may truncate binary files.
 - Avoid excessive browser chrome unless it adds useful context.
