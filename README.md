@@ -56,6 +56,7 @@ A live Super Admin product audit verified Campaign Manager capabilities includin
 - **Election analytics** including Submission Coverage, Incident Evidence, Coverage by State and an Operational Activity Timeline
 - **Internal Communication, Email Notifications and Announcements / Notice Board** workflows
 - **Campaign-specific roles and permissions** spanning national through polling-unit responsibilities
+- **Campaign branding** using campaign colours, logos and visible campaign identity
 - campaign scope configuration and geography management
 - free manual geography configuration
 - optional QuickStart Geography Provisioning
@@ -65,30 +66,29 @@ See the **[verified Product Overview](docs/product-overview.md)** for a fuller s
 
 ## See Campaign Manager in Action
 
-The first live-demo audit is complete and a privacy-reviewed screenshot shortlist has been captured. The final public screenshot set is being refreshed after privacy-safe election-demo data is populated, so empty election/agent states are not being presented as the finished product showcase.
+The screenshots below are verified Campaign Manager screens with meaningful demo data. Empty or privacy-sensitive screens are intentionally excluded.
 
-The README slots are reserved for this six-screen story:
+### National Campaign Dashboard
 
-1. **National Campaign Dashboard** — political structure coverage, membership readiness and campaign-wide operations
-2. **Election Situation Room** — result submissions, polling-unit activity, disputes and incident evidence
-3. **Electoral Geography** — Region-to-Polling-Unit operating depth across the campaign geography
-4. **Regional Campaign Structure** — geography, coordinators and member coverage at Region level
-5. **Member Coverage by Region** — mobilisation coverage across Nigeria's six geopolitical Regions
-6. **Polling Unit Agent Operations** — requests, nominations, identity stages and deployment workflow
+![Campaign Manager National Dashboard](docs/images/screenshots/dashboard-overview.webp)
 
-The captured demo confirms the application's displayed national geography totals of **6 Regions, 37 States, 109 Senatorial Districts, 360 Federal Constituencies, 774 LGAs, 8,809 Wards and 176,846 Polling Units**. These are Campaign Manager dataset totals rather than an independent electoral-data certification.
+Campaign leadership can see geographic coverage, regular members, coordinators/admins, Polling Unit Agents and voter-readiness indicators from one central dashboard.
 
-<!--
-FINAL SCREENSHOT INSERTION PLAN
-1. docs/images/screenshots/dashboard-overview.webp
-2. docs/images/screenshots/election-monitoring-results.webp
-3. docs/images/screenshots/electoral-geography.webp
-4. docs/images/screenshots/political-structure.webp
-5. docs/images/screenshots/supporter-member-management.webp
-6. docs/images/screenshots/field-agent-operations.webp
-Recommended master size: 1600x900 (16:9), WebP preferred; keep text readable at GitHub README width.
-Optional later assets: election-analytics.webp, roles-access.webp, campaign-analytics.webp, communications.webp.
--->
+### Member Coverage by Region
+
+![Campaign Manager Members by Region](docs/images/screenshots/member-coverage-regions.webp)
+
+Member coverage can be reviewed across Nigeria's six geopolitical Regions, with direct drill-down into each Region dashboard.
+
+### State Campaign Dashboard
+
+![Campaign Manager State Dashboard](docs/images/screenshots/state-dashboard.webp)
+
+State-level dashboards show the campaign's coverage across Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units alongside membership and voter-readiness metrics.
+
+Additional screenshots for the Election Situation Room, Polling Unit Agent workflows and other operations will be added when the demo data is sufficiently meaningful and privacy-safe.
+
+The current national dataset displayed by Campaign Manager contains **6 Regions, 37 States, 109 Senatorial Districts, 360 Federal Constituencies, 774 LGAs, 8,809 Wards and 176,846 Polling Units**. These are Campaign Manager dataset totals rather than an independent electoral-data certification.
 
 ## Supported campaign scopes
 
@@ -102,6 +102,10 @@ Campaign Manager can be configured for:
 
 The live product uses the package terminology **Presidential Campaign, Governorship Campaign, Senatorial District Campaign, Federal Constituency Campaign and Chairmanship Campaign**. The installer adjusts the relevant geography selection to the campaign scope. See **[Campaign Scopes](docs/campaign-scopes.md)** for the high-level model.
 
+## Campaign branding
+
+Campaign Manager can be adapted to the campaign's visual identity, including campaign colours, logos and visible branding. A self-hosted or managed deployment can therefore present the campaign organisation's own identity rather than a generic shared portal.
+
 ## Free self-hosted model
 
 Community / Self-Hosted Campaign Manager is distributed through official GitHub Releases as:
@@ -113,6 +117,8 @@ campaign-manager.zip
 The release package contains the production dependencies and compiled assets needed for deployment.
 
 **Community use does not require a software licence key.** Your technical team supplies and manages its own server, database, domain, SSL, storage and operational environment.
+
+The application published here is the Campaign Manager product used for self-hosted deployments. **Managed Deployment is a service model, not a separate hidden software edition.** It is for campaign teams that want Govware Solutions to handle infrastructure, installation, maintenance, monitoring and technical support around the same Campaign Manager application.
 
 ## Quick installation
 
@@ -149,24 +155,30 @@ For proper deployment guidance, use the full **[Installation Guide](docs/install
 
 ### Manual Geography Configuration — Free
 
-You can create and manage the geography required for your campaign scope yourself without purchasing an additional geography service. See **[Geography Setup](docs/geography-setup.md)**.
+Campaign Manager can be configured manually at no additional software cost. The installer prepares the core campaign boundary, then your team adds the remaining electoral structure needed for that scope.
 
-### QuickStart Geography Provisioning — Optional
+For example, a Governorship installation prepares the selected State and your team can then add the required Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units. A Presidential installation prepares the national context and Regions, while the remaining State and lower geography can be added manually.
 
-QuickStart is an optional paid convenience service that provisions supported electoral geography for the campaign scope/geography purchased through the Campaign Manager Portal.
+See **[Geography Setup](docs/geography-setup.md)** for the full explanation.
 
-A **QuickStart Geography Provisioning Key authorises geography provisioning only**. It is **not a software licence key** and Community Campaign Manager does not require it to run. See **[QuickStart](docs/quickstart.md)**.
+### QuickStart Geography Provisioning — Optional automatic setup
+
+QuickStart is the faster alternative. Instead of manually creating the required electoral boundaries one by one, it automatically provisions the supported **Regions, States, Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units** relevant to the campaign scope purchased.
+
+A **QuickStart Geography Provisioning Key authorises that automatic geography setup only**. It is **not a software licence key** and Community Campaign Manager does not require it to run.
+
+See **[QuickStart](docs/quickstart.md)**.
 
 ## Optional professional services
 
-You can self-host and operate Campaign Manager independently for free. If you prefer professional assistance, Govware Solutions can provide:
+You can self-host and operate Campaign Manager independently for free. If your campaign team wants assistance, Govware Solutions can provide only the services you need:
 
-- **QuickStart Geography Provisioning** — prepared geography provisioning for the purchased scope
+- **QuickStart Geography Provisioning** — automatic setup of the supported electoral geography for the purchased campaign scope
 - **Professional Installation** — one-time deployment and configuration on customer infrastructure
 - **Migration / Upgrade Assistance** — technical help moving or upgrading an installation
 - **Priority Technical Support** — paid support beyond self-service documentation
 - **Custom Development / Integration** — agreed project-specific work
-- **Managed Deployment** — Govware-operated infrastructure, monitoring, maintenance and technical support for an agreed campaign cycle
+- **Managed Deployment** — full technical operation of infrastructure, monitoring, maintenance and support for an agreed campaign cycle
 - **Campaign SMS** — optional managed messaging activation/credits where available
 
 **[Visit Campaign Manager](https://www.campaignmanager.ng)** for current service information.
@@ -177,9 +189,11 @@ New application versions are published through **[GitHub Releases](https://githu
 
 ## Community and contributions
 
-This public repository is primarily the Community documentation and official release-distribution home for Campaign Manager. Useful public contributions are welcome for documentation, installation guidance, hosting knowledge, translations, tutorials, screenshots and typo corrections.
+This repository is the public documentation and official release-distribution home for Campaign Manager. Useful public contributions are welcome for documentation, installation guidance, hosting knowledge, translations, tutorials, screenshots, typo corrections, feature ideas and reproducible bug reports.
 
-See **[CONTRIBUTING.md](CONTRIBUTING.md)** before opening a pull request. Please use GitHub Issues for reproducible installation, documentation and repository problems; do not publish credentials, QuickStart keys or campaign data.
+The application source itself is not maintained here as an editable public source tree, so application-level code changes are assessed by the maintainers rather than accepted as direct source-code pull requests from this repository.
+
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** before opening a pull request. Please do not publish credentials, QuickStart keys or campaign data.
 
 ## Security
 
