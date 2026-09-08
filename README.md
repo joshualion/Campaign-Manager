@@ -66,27 +66,7 @@ See the **[verified Product Overview](docs/product-overview.md)** for a fuller s
 
 ## See Campaign Manager in Action
 
-The screenshots below are verified Campaign Manager screens with meaningful demo data. Empty or privacy-sensitive screens are intentionally excluded.
-
-### National Campaign Dashboard
-
-![Campaign Manager National Dashboard](docs/images/screenshots/dashboard-overview.jpg)
-
-Campaign leadership can see geographic coverage, regular members, coordinators/admins, Polling Unit Agents and voter-readiness indicators from one central dashboard.
-
-### Member Coverage by Region
-
-![Campaign Manager Members by Region](docs/images/screenshots/member-coverage-regions.jpg)
-
-Member coverage can be reviewed across Nigeria's six geopolitical Regions, with direct drill-down into each Region dashboard.
-
-### State Campaign Dashboard
-
-![Campaign Manager State Dashboard](docs/images/screenshots/state-dashboard.jpg)
-
-State-level dashboards show the campaign's coverage across Senatorial Districts, Federal Constituencies, LGAs, Wards and Polling Units alongside membership and voter-readiness metrics.
-
-Additional screenshots for the Election Situation Room, Polling Unit Agent workflows and other operations will be added when the demo data is sufficiently meaningful and privacy-safe.
+Verified demo screenshots are being refreshed for the public repository. The previously embedded screenshot files were removed because they were not rendering reliably on GitHub. Rather than leave broken image placeholders, this section will be repopulated only with correctly rendered, privacy-safe screenshots.
 
 The current national dataset displayed by Campaign Manager contains **6 Regions, 37 States, 109 Senatorial Districts, 360 Federal Constituencies, 774 LGAs, 8,809 Wards and 176,846 Polling Units**. These are Campaign Manager dataset totals rather than an independent electoral-data certification.
 
