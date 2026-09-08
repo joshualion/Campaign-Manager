@@ -16,11 +16,10 @@ Campaign Manager is a Laravel-based platform for campaign organisations that nee
 <p>
   <a href="https://github.com/joshualion/Campaign-Manager/releases/latest"><img src="https://img.shields.io/github/release-date/joshualion/Campaign-Manager?display_date=published_at&label=Latest%20Update&style=for-the-badge&color=008F5A" alt="Latest Update"></a>
   <a href="https://github.com/joshualion/Campaign-Manager/releases/latest/download/campaign-manager.zip"><img src="https://img.shields.io/badge/Download-Free%20Download-008F5A?style=for-the-badge" alt="Free Download"></a>
+  <a href="docs/installation.md"><img src="https://img.shields.io/badge/Installation-Guide-0A7F55?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Installation Guide"></a>
   <a href="https://www.campaignmanager.ng"><img src="https://img.shields.io/badge/Official%20Website-Visit-006B45?style=for-the-badge" alt="Official Website"></a>
   <a href="https://www.campaignmanager.ng/order/campaign-manager?deployment=managed"><img src="https://img.shields.io/badge/Managed-Deployment-0A7F55?style=for-the-badge" alt="Managed Deployment"></a>
 </p>
-
-**[Download Latest Release](https://github.com/joshualion/Campaign-Manager/releases/latest)** · **[Installation Guide](docs/installation.md)** · **[Documentation](docs/README.md)** · **[Official Website](https://www.campaignmanager.ng)** · **[Professional Installation](https://www.campaignmanager.ng)** · **[Managed Deployment](https://www.campaignmanager.ng/order/campaign-manager?deployment=managed)**
 
 <br clear="right">
 
