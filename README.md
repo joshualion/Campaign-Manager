@@ -32,6 +32,8 @@ Campaign Manager is a Laravel-based platform for campaign organisations that nee
 
 Political campaigns often coordinate supporters, volunteers, ward/LGA structures, polling units, agents and election-day activity across disconnected spreadsheets, WhatsApp groups and paper records. Campaign Manager brings those operations into one structured campaign management system that can be hosted on infrastructure controlled by the campaign.
 
+Built around Nigerian electoral geography and campaign operations, Campaign Manager is relevant to political-tech and civic-tech teams evaluating self-hosted campaign management software, political campaign CRM workflows, supporter management, polling-unit operations and election monitoring.
+
 The **Community / Self-Hosted Edition is free to download and use**. It does **not** require a software licence key or remote software activation. Your team can configure campaign geography manually for free and operate the deployment independently.
 
 Optional Govware services are available for teams that want convenience, speed or professional technical support: **QuickStart Geography Provisioning, Professional Installation, Migration/Upgrade Assistance, Priority Support, Custom Development/Integration, Managed Deployment and Campaign SMS**.
@@ -183,7 +185,7 @@ Read **[SECURITY.md](SECURITY.md)** for the responsible private reporting route.
 
 Campaign Manager Community Edition is free to download and use. However, **free-to-use does not by itself grant open-source redistribution or modification rights**.
 
-A final public redistribution/source licence has not yet been declared in this repository. Until a formal licence is published, do not assume MIT, GPL, Apache or other open-source rights. See the licence decision note in the documentation before redistributing or modifying the application package.
+A final public redistribution/source licence has not yet been declared in this repository. Until a formal licence is published, do not assume MIT, GPL, Apache or other open-source rights. See the **[licence status and decision note](docs/licensing.md)** before redistributing or modifying the application package.
 
 ---
 
