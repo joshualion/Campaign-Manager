@@ -27,6 +27,16 @@ Campaign Manager is a Laravel-based platform for campaign organisations that nee
 
 ![Campaign Manager](docs/images/banner.jpg)
 
+## Upcoming v1.1.0 registration changes
+
+**v1.1.0 is a release candidate and has not been published. The current stable v1.0.9 release remains unchanged.**
+
+The proposed v1.1.0 installer requires a free installation registration receipt after licence/privacy acceptance. It records the Super Administrator email, configured domain, installation identifier, version and status. It does not send campaign databases, voters, political activity, passwords or operator telephone numbers.
+
+Website download contacts and installation contacts are separate. Website downloads will use a branded name/email form with a separate unchecked promotional subscription. Direct GitHub downloads remain available; new installation registration identifies deployments regardless of where the ZIP came from. Registration creates no payment obligation.
+
+See the [v1.1.0 installation and upgrade notes](docs/v1.1.0-registration.md) and [draft privacy/licence supplement](docs/community-privacy-draft.md). Final publication requires legal review, a working official registration API, verified packaging and the established signing identity.
+
 ## What Campaign Manager does
 
 Political campaigns often coordinate supporters, volunteers, ward/LGA structures, polling units, agents and election-day activity across disconnected spreadsheets, WhatsApp groups and paper records. Campaign Manager brings those operations into one structured campaign management system that can be hosted on infrastructure controlled by the campaign.
