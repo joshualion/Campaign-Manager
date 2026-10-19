@@ -1,3 +1,5 @@
+> **Update-check recovery for existing installations:** If you see “The update check could not be completed or verified”, follow the [one-time recovery instructions](docs/update-check-recovery.md). Checking for updates and manual downloads are free; the optional automatic-update service requires active paid coverage. Preserve your database, application key and uploads when upgrading.
+
 <img align="right" src="docs/images/logo.png" alt="Campaign Manager Logo" width="56">
 
 # Campaign Manager
