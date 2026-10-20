@@ -32,7 +32,7 @@ Keep `APP_KEY`, database settings, Portal registration credentials, uploads and 
 
 **Checking for updates and manual downloads are free.** The optional automatic-update service requires active paid coverage for that registered installation and campaign scope. The default coverage period is 12 months; the purchased period shown in the Portal applies. It covers eligible releases during that period and does not renew or charge automatically.
 
-- **Paid automatic update:** follow the [1.1.5 automatic-update guide](automatic-updates.md). Existing installations through 1.1.4 need the new signed `campaign-manager-updater-bootstrap.zip` once to replace the older updater flow. It checks readiness and coverage before downloading the application archive, then backs up and updates after consent. The bootstrap itself preserves Core, environment, uploads and database. Active coverage does not require another payment.
+- **Paid automatic update:** follow the [1.1.6 automatic-update guide](automatic-updates.md). Existing installations through 1.1.5 need the new signed `campaign-manager-updater-bootstrap.zip` once to replace the older updater flow. It checks readiness and coverage before downloading the application archive, then backs up and updates after consent. The bootstrap itself preserves Core, environment, uploads and database. Active coverage does not require another payment.
 - **Free manual update:** download `campaign-manager.zip` from the [latest official release](https://github.com/joshualion/Campaign-Manager/releases/latest), verify its SHA-256 against the published checksum, and follow the steps below. Restoring update checking does not require buying the automatic-update service.
 
 ## Manual upgrade checklist for the hosting administrator
