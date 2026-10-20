@@ -1,6 +1,6 @@
 # Restore free update checking and upgrade safely
 
-Campaign Manager 1.1.3 automatically configures the trusted release public key during installation. It also handles the incorrect missing-key path from older distribution templates after its corrected code is installed. No AWS account, external key download or manual key setup is needed for a normal new installation.
+Campaign Manager 1.1.3 and later automatically configure the trusted release public key during installation. It also handles the incorrect missing-key path from older distribution templates after its corrected code is installed. No AWS account, external key download or manual key setup is needed for a normal new installation.
 
 ## Existing installations showing the verification error
 
@@ -32,7 +32,7 @@ Keep `APP_KEY`, database settings, Portal registration credentials, uploads and 
 
 **Checking for updates and manual downloads are free.** The optional automatic-update service requires active paid coverage for that registered installation and campaign scope. The default coverage period is 12 months; the purchased period shown in the Portal applies. It covers eligible releases during that period and does not renew or charge automatically.
 
-- **Paid automatic update:** after recovery, use the Official Updates page. Existing engines that require the signed bridge can use `campaign-manager-updater-bootstrap.zip` from the same official release. The included README explains installation by the hosting administrator. The 1.1.3 bridge supports 1.0.8, 1.0.9, 1.1.0, 1.1.1 and 1.1.2. The bridge does not itself upgrade Core or run migrations. Actual updating still requires authorization, compatibility checks and private backups.
+- **Paid automatic update:** follow the [1.1.5 automatic-update guide](automatic-updates.md). Existing installations through 1.1.4 need the new signed `campaign-manager-updater-bootstrap.zip` once to replace the older updater flow. It checks readiness and coverage before downloading the application archive, then backs up and updates after consent. The bootstrap itself preserves Core, environment, uploads and database. Active coverage does not require another payment.
 - **Free manual update:** download `campaign-manager.zip` from the [latest official release](https://github.com/joshualion/Campaign-Manager/releases/latest), verify its SHA-256 against the published checksum, and follow the steps below. Restoring update checking does not require buying the automatic-update service.
 
 ## Manual upgrade checklist for the hosting administrator
