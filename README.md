@@ -1,3 +1,5 @@
+> **Automatic updates in 1.1.5:** [Follow the automatic-update guide](docs/automatic-updates.md) for coverage-first payment, private engine-aware backups and recovery. Existing 1.1.3/1.1.4 installations need the new signed updater bootstrap once.
+
 > **Update-check recovery for existing installations:** If you see “The update check could not be completed or verified”, follow the [one-time recovery instructions](docs/update-check-recovery.md). Checking for updates and manual downloads are free; the optional automatic-update service requires active paid coverage. Preserve your database, application key and uploads when upgrading.
 
 <img align="right" src="docs/images/logo.png" alt="Campaign Manager Logo" width="56">
@@ -56,7 +58,7 @@ A live Super Admin product audit verified Campaign Manager capabilities includin
 - **Campaign deployment override** for authorised agent deployment outside a person's registered Polling Unit
 - **Election Situation Room** monitoring for result submissions, verified/disputed results, active/silent Polling Units and incidents/evidence
 - **Election analytics** including Submission Coverage, Incident Evidence, Coverage by State and an Operational Activity Timeline
-- **Internal Communication, Email Notifications and Announcements / Notice Board** workflows
+- **Messaging with Messenger, Email Notifications, SMS and Announcements / Notice Board** workflows
 - **Campaign-specific roles and permissions** spanning national through polling-unit responsibilities
 - **Campaign branding** using campaign colours, logos and visible campaign identity
 - campaign scope configuration and geography management
