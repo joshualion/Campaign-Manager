@@ -1,4 +1,4 @@
-> **Automatic updates in 1.1.6:** [Follow the automatic-update guide](docs/automatic-updates.md) for coverage-first payment, private engine-aware backups and recovery. Existing 1.1.3/1.1.4/1.1.5 installations need the new signed updater bootstrap once.
+> **v1.1.7 update notice:** Secure automatic-update checkout, Volunteer Group/Age Grade settings fixes, and empty election results pages for every administrator level. The central Portal checkout correction is deployed. Open **Official Updates** for **Automatic Update** or a free **Manual Update**. Customers on older versions should [follow the signed-bootstrap and coverage guide](docs/automatic-updates.md). Verified payment activates coverage; pending bank transfers do not.
 
 > **Update-check recovery for existing installations:** If you see “The update check could not be completed or verified”, follow the [one-time recovery instructions](docs/update-check-recovery.md). Checking for updates and manual downloads are free; the optional automatic-update service requires active paid coverage. Preserve your database, application key and uploads when upgrading.
 
