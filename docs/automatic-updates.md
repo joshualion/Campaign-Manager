@@ -1,65 +1,46 @@
-# Automatic updates from version 1.1.7
+# Automatic updates from v1.1.8
 
-Checking for updates is free. Manual application downloads are free on GitHub. The in-app automatic-update service requires active coverage for the registered installation and campaign scope.
+Checking for updates and manual downloads are free. Automatic installation requires active coverage for the registered installation and campaign scope. Prices and coverage periods come from CampaignManager.ng.
 
-## Checkout correction in v1.1.7
+## Update your installation
 
-The central Customer Portal now generates canonical HTTPS checkout links independently of the incoming hostname. This is intended to remove the `Invalid automatic-update checkout address` blocker on existing v1.1.5 installations. Core v1.1.7 also validates explicitly trusted origins and binds checkout and return navigation to the installation and reviewed release. It fixes Volunteer Group and Age Grade settings on case-sensitive servers, and safely displays empty election results across all administrator levels.
+1. Sign in as Super Admin and open **Official Updates**.
+2. Select **Check for Updates**. If a newer release is available, select **Update Automatically** or **Manual Update**.
+3. With active coverage, Campaign Manager checks whether the installation can update safely and asks you to confirm installation.
+4. Without coverage, it opens secure Portal checkout. Use the Portal account for the installation's registered administrator email, review the price and coverage period, and choose a payment method.
+5. After genuinely confirmed payment, return to your own installation. Campaign Manager checks coverage and the signed release again. Select **Confirm and Install Update** when ready.
+6. Keep the progress page open. The updater backs up the application/database, briefly pauses access, applies approved changes and checks application health before reporting success.
 
-Checking for updates never downloads or installs the archive. Payment must be confirmed server-side before coverage becomes active. A pending bank transfer remains pending until approved. After a verified payment, the Portal returns you to your registered installation; recheck coverage and confirm before installing. Repeated attempts reuse the existing purchase rather than intentionally creating another charge. No real customer payment or production upgrade is claimed by release CI.
+A page visit, refresh, payment return or update check never installs an update by itself. A pending bank transfer does not provide active coverage until approved. Retrying checkout reuses the existing purchase rather than intentionally creating another charge. A failed or cancelled payment does not change the installed version.
 
-## The customer experience
+## Repair an older updater once
 
-1. Sign in as Super Admin and open **Official Updates → Automatic Update**.
-2. Campaign Manager checks the release, hosting capabilities and database backup/recovery support before offering payment.
-3. If coverage is missing, select **Continue to secure payment** and complete the Portal checkout. After verified payment, return to the originating installation and select **I have paid — check coverage**.
-4. If coverage is active, no additional payment is needed. Confirm the short maintenance period and select **Back up and update**.
-5. The application downloads and verifies the package, creates private database/file backups, installs reviewed changes and checks the result.
+An older installed updater cannot repair itself merely by discovering a newer full release. If it fails to open, redirects to a malformed login address, or exposes the old update controls, use the **official signed v1.1.8 recovery bootstrap**.
 
-An uncovered installation cannot use the revised in-app service to download the application update archive. Clients choosing the free manual method download it directly from GitHub.
+Follow [the recovery instructions](updater-recovery-v1.1.8.md). The supported process uses cPanel File Manager to upload/extract privately and cPanel Terminal to run one installer command; no PHP source editing is needed. Hosts without Terminal/process execution need assistance from their hosting operator or the free manual upgrade method. There is no promised one-click browser recovery.
 
-## Existing 1.1.3, 1.1.4, 1.1.5 and 1.1.6 installations
+Installing or opening the bootstrap preserves the current Core version, environment, uploads, registered identity and database. The real application update requires separate explicit confirmation. An existing faulty bootstrap can be archived/replaced only when no update or recovery is active.
 
-Those versions contain older updater code. Discovering a release cannot replace the installed updater or correct its existing screens. Version 1.1.3/1.1.4 also predates the engine-aware backup support. Apply the **signed 1.1.7 updater bootstrap once** to obtain the new flow before starting the application update.
+The release gates rehearse actual official v1.1.3, v1.1.4, v1.1.5 and v1.1.6 installations against the packaged bootstrap and signed update. Older supported source versions and compatibility are checked by the installer and signed release policy; unsupported paths stop safely.
 
-Download these two files from the [official 1.1.7 release](https://github.com/joshualion/Campaign-Manager/releases/tag/v1.1.7):
+## Registration and ownership
 
-- campaign-manager-updater-bootstrap.zip
-- campaign-manager-updater-bootstrap.zip.sha256
+A registered installation shows its domain, administrator email and active registration status. Existing verified ownership is not repeatedly confirmed. If ownership proof is genuinely missing, complete the one-time email verification already sent during installation, or follow the guided recovery link.
 
-Place them together in a private directory outside the web document root, verify the archive, and extract it:
+Sensitive domain/contact changes remain under **Manage Registration Details**. Editing a local administrator's email does not transfer Portal ownership. Another authorized Super Admin can use coverage that is already active, but purchasing requires the verified registered contact's Portal account.
 
-```sh
-sha256sum --check campaign-manager-updater-bootstrap.zip.sha256
-unzip campaign-manager-updater-bootstrap.zip -d campaign-updater-1.1.7
-cd campaign-updater-1.1.7
-php bootstrap-install.php /absolute/path/to/existing/core
-```
+## Backups and recovery
 
-Replace the example path with the existing Core directory containing artisan and .env. Use the installation's PHP 8.2+ CLI executable. The installer verifies the signed bootstrap and all its files against the established release key. It preserves the installed application, database, environment and uploads.
+The updater verifies signed metadata, package integrity and the supported source version, then checks hosting/database capabilities before installation. It creates private recoverable backups and preserves environment configuration, installation identity, uploads and existing campaign/user data. Only approved pending migrations may run; no reset or seed is part of an update.
 
-If a previous bootstrap exists and no update/recovery is active, archive and replace it using:
+Supported MySQL/MariaDB backup paths preserve table engines and use a native export or a verified streaming fallback. Separate supervision handles interrupted workers. Recoverable failures restore verified application/database backups. If recovery cannot be verified, keep maintenance enabled and contact support before retrying. Never delete recovery backups or expose private logs, database exports or environment snapshots publicly.
 
-```sh
-php bootstrap-install.php /absolute/path/to/existing/core --replace-bootstrap
-```
+See [recovery and rollback instructions](updater-recovery-v1.1.8.md#failure-and-rollback) for the job-specific recovery command. A database snapshot must not be blindly restored after the updated application has reopened to new writes.
 
-Sign in to the existing application as Super Admin and open **/campaign-update-bootstrap.php** on its own domain. Select **Check for updates** to load the latest release, then use that screen for the coverage-first automatic update. The bridge is removed after success. The bootstrap supports reviewed installed versions 1.0.8 through 1.1.6. Direct upgrades from 1.1.3, 1.1.4, 1.1.5 and 1.1.6 to 1.1.7 are rehearsed before publication; intermediate installation is unnecessary for those paths.
+## Free manual updates
 
-A package downloaded earlier by the old screen is only staged; it is not installed. The new screen refreshes latest-release metadata and can reuse a matching verified package after checking coverage. An older unused package is replaced automatically when you start the covered update. Packages associated with active updates or pending recovery and all private recovery backups stay protected. If the release changes after review, review the new target before proceeding.
+**Manual Update** opens the official GitHub release. Download `campaign-manager.zip` and follow the [manual upgrade guide](upgrading.md). Do not substitute GitHub's source-code ZIP for the application package.
 
-## Database backups and recovery
+## What release tests prove
 
-Version 1.1.7 preserves existing table engines. It uses a transaction snapshot for InnoDB or read locks for supported mixed local engines, including MyISAM, MEMORY and MariaDB Aria. It also supports CSV/ARCHIVE where available. Missing or unsuccessful native database export tools automatically select a streaming PHP/PDO backup. Incomplete exports are discarded and retried from a fresh snapshot.
-
-Failed installation steps attempt automatic restoration of the verified pre-update database and managed application files. A separate supervisor handles interrupted workers and waits for surviving migration commands. An old database snapshot is never restored after the updated application may have reopened to new writes.
-
-Backups remain in private storage under storage/app/updates/jobs. Never expose or send database exports, environment snapshots, connection files or private logs publicly.
-
-The updater cannot bypass denied hosting permissions, exhausted storage or corruption. Unsupported connection topologies, active database events and independent/forced writers require a verified pause strategy. Readiness detects known incompatibilities before checkout; resources and permissions can still change later. If recovery cannot be verified, the application stays protected in maintenance and keeps its backups. Existing update coverage remains available for retry.
-
-## Release validation
-
-The 1.1.7 workflow gates publication on application checks for PHP 8.2/8.3, real native/PDO backup-and-restore tests for MySQL 8.0 and MariaDB 10.11/11.4, and signed-bootstrap upgrades from the official 1.1.3, 1.1.4, 1.1.5 and 1.1.6 archives.
-
-Isolated upgrade rehearsals replace entitlement calls with test stubs. They do not constitute a live payment or customer-production-server test.
+Release checks cover PHP 8.2/8.3, MySQL 8.0, MariaDB 10.11/11.4, signatures/checksums, packaged bootstrap HTTP behavior and older-archive upgrades. Isolated upgrade rehearsals stub entitlement calls and do not involve real payments or a customer's production database. A real payment followed by a successful customer-production upgrade is a separate acceptance test; do not infer it from CI alone.

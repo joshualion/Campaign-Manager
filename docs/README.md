@@ -6,6 +6,9 @@ Campaign Manager is free to download and use on infrastructure you control. Comm
 
 ## Start here
 
+- [Automatic updates](automatic-updates.md) — check, pay if needed, return and confirm
+- [Repair an older updater](updater-recovery-v1.1.8.md) — official v1.1.8 recovery bootstrap
+
 - [Product overview](product-overview.md) — verified live-demo capabilities and product strengths
 - [Installation guide](installation.md) — complete release-to-install workflow
 - [cPanel installation](cpanel-installation.md) — practical shared-hosting deployment
