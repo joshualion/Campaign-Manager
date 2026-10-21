@@ -1,5 +1,7 @@
 # Upgrading Campaign Manager
 
+For v1.1.8, use [the automatic-update guide](automatic-updates.md) or [repair an older updater once](updater-recovery-v1.1.8.md). Manual downloads remain free; the steps below apply to the manual method.
+
 Campaign Manager application updates are distributed through GitHub Releases. Treat an upgrade as a production deployment change: back up first, read the release notes, preserve environment/user data, and verify after the update.
 
 ## Before upgrading
