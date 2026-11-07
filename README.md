@@ -1,7 +1,3 @@
-> **v1.1.8 update notice:** The corrected recovery updater fixes startup errors and broken login links on older installations. Open **Official Updates** → **Check for Updates** → **Update Automatically**, or choose the free **Manual Update**. If coverage is needed, complete secure Portal checkout, return and confirm installation. Existing customers with a faulty updater should [install the official signed recovery bootstrap](docs/updater-recovery-v1.1.8.md). Pending bank transfers remain pending until approved.
-
-> **Update-check recovery for existing installations:** If you see “The update check could not be completed or verified”, follow the [one-time recovery instructions](docs/update-check-recovery.md). Checking for updates and manual downloads are free; the optional automatic-update service requires active paid coverage. Preserve your database, application key and uploads when upgrading.
-
 <img align="right" src="docs/images/logo.png" alt="Campaign Manager Logo" width="56">
 
 # Campaign Manager
